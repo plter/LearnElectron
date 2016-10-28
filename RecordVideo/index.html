@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+</head>
+<body>
+
+<video id="video" width="400" controls="controls" muted="muted" height="300" autoplay="autoplay"></video>
+
+<div>
+    <button id="btn-start-record">开始录制</button>
+    <button id="btn-stop-record">停止录制</button>
+    <button id="btn-download-video">下载视频</button>
+    <span id="status"></span>
+</div>
+
+</body>
+
+<script>
+    // You can also require other files to run in this process
+    require('./renderer');
+</script>
+</html>
